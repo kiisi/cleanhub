@@ -39,7 +39,7 @@ const FeaturesCusDesktop = ({imgCusNum, id_0, id_1, id_2, pc_one, pc_two, pc_thr
                     </div>
                     <div className="features-main-content-main">
                         <h1>Specialization</h1>
-                        <p style={id_2 === 1 ? { display: "block" } : { display: "none" }}>Every designers has their specialty. You can now choose from a vast majority of designers based on their specialty</p>
+                        <p style={id_2 === 1 ? { display: "block" } : { display: "none" }}>Every designer has their specialty. You can now choose from a vast majority of designers based on their specialty</p>
                     </div>
                 </div>
             </div>
