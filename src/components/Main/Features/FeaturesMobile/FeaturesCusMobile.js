@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './FeaturesMobile.css';
 import catalog from '../../../Images/catalog.png'
 import security from '../../../Images/security.png'
@@ -6,7 +6,36 @@ import specialization from '../../../Images/specialization.png'
 import catalogMobile from '../../../Images/Images-new/catalog-mobile.jpg';
 import safeMobile from '../../../Images/Images-new/safe-mobile.jpg';
 import specializationMobile from '../../../Images/Images-new/specialization-mobile.jpg';
-const FeaturesCusMobile = ({id_0, id_1, id_2, id_3, pc_one, pc_two, pc_three }) => {
+const FeaturesCusMobile = () => {
+    const [numCus, setCusNum] = useState({
+        id_0: 1,
+        id_1: 0,
+        id_2: 0,
+      })
+    
+      const pc_one = () => {
+        setCusNum({
+          id_0: 1,
+          id_1: 0,
+          id_2: 0,
+        })
+      }
+      const pc_two = () => {
+        setCusNum({
+          id_0: 0,
+          id_1: 1,
+          id_2: 0,
+        })
+      }
+      const pc_three = () => {
+        setCusNum({
+          id_0: 0,
+          id_1: 0,
+          id_2: 1
+        })
+      }
+    
+
     return (
         <div className="features-main-mb">
             <div className="features-main-content_wrapper-mb">
@@ -20,7 +49,7 @@ const FeaturesCusMobile = ({id_0, id_1, id_2, id_3, pc_one, pc_two, pc_three }) 
                             <p >You can now view from a vast collection of designs from all over Africa to choose from.</p>
                         </div>
                     </div>
-                    <div className="features-main-content-img-mb"style={id_0 === 1 ? { display: "block" } : { display: "none" }}>
+                    <div className="features-main-content-img-mb"style={numCus.id_0 === 1 ? { display: "block" } : { display: "none" }}>
                         <img src={catalogMobile} alt="img" />
                     </div>
                 </div>
@@ -34,7 +63,7 @@ const FeaturesCusMobile = ({id_0, id_1, id_2, id_3, pc_one, pc_two, pc_three }) 
                             <p>Shopping on Kartlog is safe and convenient, all fashion designers have gone through our KYC process</p>
                         </div>
                     </div>
-                    <div className="features-main-content-img-mb"style={id_1 === 1 ? { display: "block" } : { display: "none" }}>
+                    <div className="features-main-content-img-mb"style={numCus.id_1 === 1 ? { display: "block" } : { display: "none" }}>
                         <img src={safeMobile} alt="img" />
                     </div>
                 </div>
@@ -48,7 +77,7 @@ const FeaturesCusMobile = ({id_0, id_1, id_2, id_3, pc_one, pc_two, pc_three }) 
                             <p>Every designer has their specialty. You can now choose from a vast majority of designers based on their specialty</p>
                         </div>
                     </div>
-                    <div className="features-main-content-img-mb"style={id_2 === 1 ? { display: "block" } : { display: "none" }}>
+                    <div className="features-main-content-img-mb"style={numCus.id_2 === 1 ? { display: "block" } : { display: "none" }}>
                         <img src={specializationMobile} alt="img" />
                     </div>
                 </div>
