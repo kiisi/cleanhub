@@ -17,7 +17,7 @@ const FeaturesCusMobile = ({id_0, id_1, id_2, id_3, pc_one, pc_two, pc_three }) 
                         </div>
                         <div className="features-main-content-main-mb">
                             <h1>Catalog</h1>
-                            <p >You can now view from a vast of designs from all over Africa to choose from.</p>
+                            <p >You can now view from a vast collection of designs from all over Africa to choose from.</p>
                         </div>
                     </div>
                     <div className="features-main-content-img-mb"style={id_0 === 1 ? { display: "block" } : { display: "none" }}>
@@ -45,7 +45,7 @@ const FeaturesCusMobile = ({id_0, id_1, id_2, id_3, pc_one, pc_two, pc_three }) 
                         </div>
                         <div className="features-main-content-main-mb">
                             <h1>Specialization</h1>
-                            <p>Every designers has their specialty. You can now choose from a vast majority of designers based on their specialty</p>
+                            <p>Every designer has their specialty. You can now choose from a vast majority of designers based on their specialty</p>
                         </div>
                     </div>
                     <div className="features-main-content-img-mb"style={id_2 === 1 ? { display: "block" } : { display: "none" }}>

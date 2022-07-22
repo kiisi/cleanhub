@@ -19,7 +19,7 @@ const FeaturesMobile = ({id_0, id_1, id_2, id_3, p_one, p_two, p_three, p_four }
                         </div>
                         <div className="features-main-content-main-mb">
                             <h1>E-Measurements booklet</h1>
-                            <p >Fashion Designers can now view all clients measurement in via client's profile. Measurements can always be updated.</p>
+                            <p >Fashion Designers can now view all clients measurement via client's profile. Measurements can always be updated.</p>
                         </div>
                     </div>
                     <div className="features-main-content-img-mb"style={id_0 === 1 ? { display: "block" } : { display: "none" }}>
