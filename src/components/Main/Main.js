@@ -6,6 +6,7 @@ import Features from './Features/Features'
 import Activity from './Activity/Activity'
 import GetStarted from './GetStarted/GetStarted'
 import Header from './Header/Header'
+import Faqs from './Faqs/Faqs'
 
 const Main = () => {
   useEffect(() => {
@@ -29,6 +30,7 @@ const Main = () => {
         <Features/>
         <Activity/>
         <GetStarted/>
+        <Faqs/>
     </div>
   )
 }
