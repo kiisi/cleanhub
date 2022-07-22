@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+html, body{
+  margin:0;
+  padding:0;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html{
+  font-size:62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+/* COLORS */
+
+:root{
+  --blue: #0777A1;
+  --pink: #ff7990;
+  --black: #484848;
+  --whiteText:rgb(112, 122, 138);
+  --pinkShade1:rgba(252, 228, 236, 1);
+  --pinkShade2:rgba(248, 187, 208, 1);
+  --blueEffect:rgba(7, 120, 161, 0.7);
+  --pinkEffect:rgba(255, 121, 143, 0.7);
+}
+/* PADDING */
+:root{
+  --paddingBig:3rem;
+  --paddingSmall:1.55rem;;
+}
+/* FONT SIZE*/
+:root{
+  --fontSizeBtn:1.4rem;
+  --fontSizeBig:3.5rem;
+  --fontSizeSmall:2.2rem;
+  --fontText:1.5rem;
+}
+
+.k-wrapper{
+  width:100%;
+  display:grid;
+  place-items: center;
+}
+.material-icons{
+  color:var(--blue);
+}
+.no-highlight{
+  background-color: transparent;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select:none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;  
+}
+.swal2-container {
+  z-index: X;
+}
+
+
