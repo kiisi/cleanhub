@@ -24,7 +24,6 @@ const Features = () => {
     id_2: 0,
     id_3: 0
   })
-  const [imgNum, setImgNum] = useState(0)
 
   const p_one = () => {
     setNum({
@@ -33,7 +32,6 @@ const Features = () => {
       id_2: 0,
       id_3: 0
     })
-    setImgNum(0)
   }
   const p_two = () => {
     setNum({
@@ -42,7 +40,6 @@ const Features = () => {
       id_2: 0,
       id_3: 0
     })
-    setImgNum(1)
   }
   const p_three = () => {
     setNum({
@@ -51,7 +48,6 @@ const Features = () => {
       id_2: 1,
       id_3: 0
     })
-    setImgNum(2)
   }
   const p_four = () => {
     setNum({
@@ -60,7 +56,6 @@ const Features = () => {
       id_2: 0,
       id_3: 1
     })
-    setImgNum(3)
   }
 
   
@@ -116,11 +111,7 @@ const Features = () => {
             p_one={p_one} p_two={p_two}
             p_three={p_three} p_four={p_four} />
           :
-          <FeaturesDesktop imgNum={imgNum}
-            id_0={num.id_0} id_1={num.id_1}
-            id_2={num.id_2} id_3={num.id_3}
-            p_one={p_one} p_two={p_two}
-            p_three={p_three} p_four={p_four}
+          <FeaturesDesktop
           />}
         <div className="features-header_wrapper features-space">
           <div className="features-header-sub">

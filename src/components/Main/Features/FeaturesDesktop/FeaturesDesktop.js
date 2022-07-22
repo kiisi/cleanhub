@@ -3,6 +3,7 @@ import measurement from '../../../Images/measurement.png'
 import payment from '../../../Images/payment.png'
 import marketplace from '../../../Images/marketplace.png'
 import interaction from '../../../Images/interaction.png'
+
 import measurementDesktop from '../../../Images/Images-new/measure-desktop.png';
 import paymentDesktop from '../../../Images/Images-new/payment-desktop.png';
 import manageDesktop from '../../../Images/Images-new/manage-desktop.png';
