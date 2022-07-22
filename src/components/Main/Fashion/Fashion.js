@@ -27,7 +27,7 @@ const Fashion = () => {
                         <div className="fashion_content_list">
                             <div className="fashion_content_items">
                                 <div className="check"><span className="material-icons">check_circle</span></div>
-                                <div className="item">Kartlog connects to the best fashion designers in your neighbourhood, you can now make orders for perfect fitted dresses with your measurements</div>
+                                <div className="item">Kartlog connects you to the best fashion designers in your neighbourhood, you can now make orders for perfect fitted dresses with your measurements</div>
                             </div>
                             <div className="fashion_content_items">
                                 <div className="check"><span className="material-icons">check_circle</span></div>

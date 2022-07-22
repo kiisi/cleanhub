@@ -100,7 +100,7 @@ const FeaturesDesktop = () => {
             </div>
             <div className="features-main-img_wrapper">
                 <div className="features-main-img">
-                    <img src={imgArray[imgNum]} alt="img" />
+                    <img src={imgArray[imgNum]} alt="img"/>
                 </div>
             </div>
         </div>

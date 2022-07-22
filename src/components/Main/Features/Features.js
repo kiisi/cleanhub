@@ -101,7 +101,7 @@ const Features = () => {
           </div>
           <div className="features-header-sub">
             <h1>Fashion Designers</h1>
-            <p>You can now digitalize of your business operation</p>
+            <p>You can now digitalize all your business operation</p>
           </div>
         </div>
         {isBigScreen ?
