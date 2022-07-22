@@ -1,18 +1,53 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect } from 'react'
 import './Faqs.css'
 
 const Faqs = () => {
+  
 
-  const [click, setClick] = useState(true)
-  const contentMainRef = useRef()
+  
 
-  const faqsHandler = () =>{
+  useEffect(() => {
     
+    const contentHeaders = document.querySelectorAll(".faqs-content .faqs-content-header")
     
+    contentHeaders.forEach(contentHeader=>{
+      contentHeader.addEventListener('click',()=>{
+        let icon = contentHeader.children.item(1).children.item(0)
+        let p = contentHeader.children.item(0)
 
+        const contentMain = contentHeader.nextElementSibling
+        if(!contentMain.classList.contains("effect")){
+          icon.textContent = 'remove'
+          p.style.color = "#0777A1"
+          contentMain.classList.add("effect")
+          contentMain.style.height = 'auto'
+  
+          const contentMainHeight= contentMain.clientHeight + "px"
+          
+          contentMain.style.height = '0px'
+  
+          setTimeout(function(){
+          contentMain.style.height = contentMainHeight
+          }, 0)
+          
+      }
+      else{
+        icon.textContent = 'add'
+        p.style.color = "#484848"
+        contentMain.style.height = '0px'
+        contentMain.addEventListener('transitionend',()=>{
+          contentMain.classList.remove('effect')
+        },{
+          once:true
+        })
+      }  
+      })
+    })
+    
+  },[])
+  
 
-   
-  }
+  
 
   return (
     <div className="faqs-wrapper">
@@ -23,12 +58,58 @@ const Faqs = () => {
           </div>
           <div className="faqs-content-wrapper">
             <div className="faqs-content">
-              <div className="faqs-content-header" onClick={faqsHandler}>
+              <div className="faqs-content-header">
                 <p>What is Kartlog and how it work </p>
                 <div className="faqs-icon"><span className="material-icons">add</span></div>
               </div>
-              <div className="faqs-content-main"ref={contentMainRef}>
+              <div className="faqs-content-main">
                 Kartlog is a bespoke fashion company that offers the Kartlog mobile app, a platform that connects customers to fashion designers across Africa. Kartlog servers as an updated catalog and a marketplace to fashion customers and a complete set of business tools and marketplace to fashion designers.
+              </div>
+            </div>
+            <div className="faqs-content">
+              <div className="faqs-content-header">
+                <p>How it works: Kartlog for Fashion Customers</p>
+                <div className="faqs-icon"><span className="material-icons">add</span></div>
+              </div>
+              <div className="faqs-content-main">
+                First, download the app, sign up for Kartlog, define your style and input your measurement (we have a video to guide you through the process). Search through thousands of styles shared by fashion designers to choose from, Choose particular designs and designer to help get it done. <br/>
+                How it works: Kartlog for Fashion designers Fashion designers are to download the app, set up an account, onboard customers by sending invite links. Then they have to set up their stores and are ready for business.
+              </div>
+            </div>
+            <div className="faqs-content">
+              <div className="faqs-content-header">
+                <p>How does Kartlog deal with the issue of what i ordered vs what i got</p>
+                <div className="faqs-icon"><span className="material-icons">add</span></div>
+              </div>
+              <div className="faqs-content-main">
+                First, Kartlog operates on rating systems, where fashion designers get customers ratings to put them ina good place. So customers look out for ratings and designers' history.<br/>Secondly, Kartlog offers money back guarantee to customers after investigating source of the issue and customer is not found wanting
+              </div>
+            </div>
+            <div className="faqs-content">
+              <div className="faqs-content-header">
+                <p>Do I need a physical business location as a fashion designer to get onboard?</p>
+                <div className="faqs-icon"><span className="material-icons">add</span></div>
+              </div>
+              <div className="faqs-content-main">
+                Every fashion designer must provide a workspace as part of our KYC process. Moreover fashion designers can make use of their residents in the case of not having a business location
+              </div>
+            </div>
+            <div className="faqs-content">
+              <div className="faqs-content-header">
+                <p>How does Kartlog handle payment issues?</p>
+                <div className="faqs-icon"><span className="material-icons">add</span></div>
+              </div>
+              <div className="faqs-content-main">
+                Every payment is made to Kartlog at the time the job is issued out to the fashion designer, Kartlog makes payment available to the fashion designer once the job is complete.
+              </div>
+            </div>
+            <div className="faqs-content">
+              <div className="faqs-content-header">
+                <p>Who are Logistics Partners and how do I get onboard as a logistic partner</p>
+                <div className="faqs-icon"><span className="material-icons">add</span></div>
+              </div>
+              <div className="faqs-content-main">
+                Logistics partners are logistics companies from every region who partner with Kartlog for pickup and deliveries in every city. Becoming a logistic partner only involves filling the Logistics partnership form on the website or by contacting us at Logistics@Kartlog.co
               </div>
             </div>
           </div>
