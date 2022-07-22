@@ -2,9 +2,16 @@ import React from 'react'
 import catalog from '../../../Images/catalog.png'
 import security from '../../../Images/security.png'
 import specialization from '../../../Images/specialization.png'
+
+import catalogDesktop from '../../../Images/Images-new/catalog-desktop.png';
+import safeDesktop from '../../../Images/Images-new/safe-desktop.png';
+import specializationDesktop from '../../../Images/Images-new/specialization-desktop.png';
 import './FeatureDesktop.css'
 
-const FeaturesCusDesktop = ({ imgCusArray, imgCusNum, id_0, id_1, id_2, pc_one, pc_two, pc_three }) => {
+const FeaturesCusDesktop = ({imgCusNum, id_0, id_1, id_2, pc_one, pc_two, pc_three }) => {
+
+  const imgCusArray = [catalogDesktop, safeDesktop, specializationDesktop]
+
     return (
         <div className="features-main">
             <div className="features-main-content_wrapper">

@@ -3,9 +3,16 @@ import measurement from '../../../Images/measurement.png'
 import payment from '../../../Images/payment.png'
 import marketplace from '../../../Images/marketplace.png'
 import interaction from '../../../Images/interaction.png'
+import measurementDesktop from '../../../Images/Images-new/measure-desktop.png';
+import paymentDesktop from '../../../Images/Images-new/payment-desktop.png';
+import manageDesktop from '../../../Images/Images-new/manage-desktop.png';
+import marketDesktop from '../../../Images/Images-new/market-desktop.png';
 import './FeatureDesktop.css'
 
-const FeaturesDesktop = ({ imgArray, imgNum, id_0, id_1, id_2, id_3, p_one, p_two, p_three, p_four }) => {
+const FeaturesDesktop = ({imgNum, id_0, id_1, id_2, id_3, p_one, p_two, p_three, p_four }) => {
+
+  const imgArray = [measurementDesktop, paymentDesktop, manageDesktop, marketDesktop]
+
     return (
         <div className="features-main">
             <div className="features-main-content_wrapper">

@@ -3,14 +3,9 @@ import './Features.css'
 import { useMediaQuery } from 'react-responsive'
 
 
-import measurementDesktop from '../../Images/Images-new/measure-desktop.png';
-import paymentDesktop from '../../Images/Images-new/payment-desktop.png';
-import manageDesktop from '../../Images/Images-new/manage-desktop.png';
-import marketDesktop from '../../Images/Images-new/market-desktop.png';
 
-import catalogDesktop from '../../Images/Images-new/catalog-desktop.png';
-import safeDesktop from '../../Images/Images-new/safe-desktop.png';
-import specializationDesktop from '../../Images/Images-new/specialization-desktop.png';
+
+
 
 import FeaturesDesktop from './FeaturesDesktop/FeaturesDesktop'
 import FeaturesMobile from './FeaturesMobile/FeaturesMobile'
@@ -101,8 +96,6 @@ const Features = () => {
     })
    setImgCusNum(2)
   }
-  const imgArray = [measurementDesktop, paymentDesktop, manageDesktop, marketDesktop]
-  const imgCusArray = [catalogDesktop, safeDesktop, specializationDesktop]
 
   return (
     <section className="features_wrapper">
@@ -123,7 +116,7 @@ const Features = () => {
             p_one={p_one} p_two={p_two}
             p_three={p_three} p_four={p_four} />
           :
-          <FeaturesDesktop imgArray={imgArray} imgNum={imgNum}
+          <FeaturesDesktop imgNum={imgNum}
             id_0={num.id_0} id_1={num.id_1}
             id_2={num.id_2} id_3={num.id_3}
             p_one={p_one} p_two={p_two}
@@ -142,7 +135,7 @@ const Features = () => {
             pc_one={pc_one} pc_two={pc_two}
             pc_three={pc_three} />
           :
-          <FeaturesCusDesktop imgCusArray={imgCusArray} imgCusNum={imgCusNum}
+          <FeaturesCusDesktop imgCusNum={imgCusNum}
             id_0={numCus.id_0} id_1={numCus.id_1}
             id_2={numCus.id_2} id_3={numCus.id_3}
             pc_one={pc_one} pc_two={pc_two}
