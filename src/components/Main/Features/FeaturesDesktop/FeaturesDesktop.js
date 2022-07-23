@@ -67,7 +67,7 @@ const FeaturesDesktop = () => {
                     </div>
                     <div className="features-main-content-main">
                         <h1>E-Measurements booklet</h1>
-                        <p style={num.id_0 === 1 ? { display: "block" } : { display: "none" }}>Fashion Designers can now view all clients measurement via client's profile. Measurements can always be updated.</p>
+                        <p style={num.id_0 === 1 ? { display: "block" } : { display: "none" }}>Fashion Designers can view all clients measurement via client's profile. Measurements can always be updated.</p>
                     </div>
                 </div>
                 <div className="features-main-content" onClick={p_two} style={num.id_1 === 1 ? { boxShadow: "0 0 3px 3px rgb(0 0 0 / 10%)" } : { boxShadow: "none", borderBottom: "1px solid #aaa", borderRadius: "0" }}>
@@ -76,7 +76,7 @@ const FeaturesDesktop = () => {
                     </div>
                     <div className="features-main-content-main">
                         <h1>E-Payments</h1>
-                        <p style={num.id_1 === 1 ? { display: "block" } : { display: "none" }}>Fashion Designers can now receive payments digitally into E-wallet and can transfer to Bank. This enables them to keep track of all purchases</p>
+                        <p style={num.id_1 === 1 ? { display: "block" } : { display: "none" }}>Fashion Designers can receive payments digitally into E-wallet and can transfer to Bank. This enables them to keep track of all purchases</p>
                     </div>
                 </div>
                 <div className="features-main-content" onClick={p_three} style={num.id_2 === 1 ? { boxShadow: "0 0 3px 3px rgb(0 0 0 / 10%)" } : { boxShadow: "none", borderBottom: "1px solid #aaa", borderRadius: "0" }}>
