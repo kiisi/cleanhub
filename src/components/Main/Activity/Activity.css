@@ -29,6 +29,7 @@
     width:100%;
     line-height:3rem;
     color:var(--black);
+    font-weight:600;
 }
 .activity_content-p--first{
     padding-bottom:2rem;
