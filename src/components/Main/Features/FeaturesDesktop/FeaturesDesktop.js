@@ -4,7 +4,7 @@ import payment from '../../../Images/payment.png'
 import marketplace from '../../../Images/marketplace.png'
 import interaction from '../../../Images/interaction.png'
 
-import measurementDesktop from '../../../Images/Images-new/measure-desktop.png';
+import measurementDesktop from '../../../Images/Images-new/measure.png';
 import paymentDesktop from '../../../Images/Images-new/payment-desktop.png';
 import manageDesktop from '../../../Images/Images-new/manage-desktop.png';
 import marketDesktop from '../../../Images/Images-new/market-desktop.png';
