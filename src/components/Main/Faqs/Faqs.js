@@ -63,7 +63,7 @@ const Faqs = () => {
                 <div className="faqs-icon"><span className="material-icons">add</span></div>
               </div>
               <div className="faqs-content-main">
-                Kartlog is a bespoke fashion company that offers the Kartlog mobile app, a platform that connects customers to fashion designers across Africa. Kartlog servers as an updated catalog and a marketplace to fashion customers and a complete set of business tools and marketplace to fashion designers.
+                Kartlog is an fashion tech comapny that offers a platform (marketplace) service for fashion designers and fashion customers across Africa. Kartlog servers as an updated catalog and a marketplace to fashion customers and a complete set of business tools and marketplace to fashion designers.
               </div>
             </div>
             <div className="faqs-content">
