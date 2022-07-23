@@ -47,7 +47,7 @@ const Navbar = () => {
                     <a href="/"><img src={Logo} alt="Kartlog"/></a>
                 </div>
                 <div className="nav_btn">
-                    <div className="btn btn-res btn-popup">Get App Now</div>
+                    <div className="btn btn-res btn-popup">Get Started</div>
                 </div>
             </nav>
         </div>
