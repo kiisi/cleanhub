@@ -59,7 +59,7 @@ const FeaturesMobile = () => {
                         </div>
                         <div className="features-main-content-main-mb">
                             <h1>E-Measurements booklet</h1>
-                            <p >Fashion Designers can now view all clients measurement via client's profile. Measurements can always be updated.</p>
+                            <p >Fashion Designers can view all clients measurement via client's profile. Measurements can always be updated.</p>
                         </div>
                     </div>
                     <div className="features-main-content-img-mb"style={num.id_0 === 1 ? { display: "block" } : { display: "none" }}>
@@ -73,7 +73,7 @@ const FeaturesMobile = () => {
                         </div>
                         <div className="features-main-content-main-mb">
                             <h1>E-Payments</h1>
-                            <p>Fashion designers can now receive payments digitally into E-wallet and can transfer to Bank. This enables them to keep track of all purchases</p>
+                            <p>Fashion designers can receive payments digitally into E-wallet and can transfer to Bank. This enables them to keep track of all purchases</p>
                         </div>
                     </div>
                     <div className="features-main-content-img-mb"style={num.id_1 === 1 ? { display: "block" } : { display: "none" }}>
