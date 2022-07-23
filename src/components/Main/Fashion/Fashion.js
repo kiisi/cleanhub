@@ -37,7 +37,7 @@ const Fashion = () => {
                                 <div className="check"><span className="material-icons">check_circle</span></div>
                                 <div className="item">Kartlog offers affordable material pickup and delivery across Africa</div>
                             </div>
-                            <div className="btn btn-popup">Get App Now</div>
+                            <div className="btn btn-popup">Get Started</div>
                         </div>
                     </div>
                 </div>

@@ -16,6 +16,7 @@
     grid-template-columns: 40% 60%;
     width:100%;
     padding: 2rem 2rem;
+    padding-top: 4rem
     padding-bottom: 4rem;
 }
 .contact-main_wrapper{
@@ -23,7 +24,7 @@
     justify-content: center;
 }
 .contact-main{
-    max-width:20rem;
+    max-width:30rem;
     width:100%;
     padding-top:5rem;
     color:#fff;
@@ -38,8 +39,8 @@
 }
 .contact-main_header p{
     font-size:var(--fontText);
-    font-weight:300;
-    line-height:2.2rem;
+    font-weight:500;
+    line-height:1.8rem;
 }
 .contact-main_footer--tel{
     display:flex;
