@@ -72,6 +72,7 @@
     padding-bottom: 1rem;
     color:var(--black);
     font-size:1.2rem;
+    font-weight:600;
 }
 .popup-details-content{
     padding-bottom: 1rem;
