@@ -15,7 +15,7 @@ const Header = () => {
           <h1>Custom-made clothing</h1>
         </div>
         <div className="header-sub">
-          <p>A marketplace for fashion designers and fashion lovers</p>
+          <p>A marketplace for fashion designers and fashion customers</p>
         </div>
         <div className="getapp">
           <div className="appstore"><img src={appstore} alt='appstore'/></div>
