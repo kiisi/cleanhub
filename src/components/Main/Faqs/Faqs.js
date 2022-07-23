@@ -63,7 +63,10 @@ const Faqs = () => {
                 <div className="faqs-icon"><span className="material-icons">add</span></div>
               </div>
               <div className="faqs-content-main">
-                Kartlog is an fashion tech comapny that offers a platform (marketplace) service for fashion designers and fashion customers across Africa. Kartlog serves as a marketplace to fashion customers and an updated style catalog to help users stay in touch with fashion trends. </br> To fashion designers, Kartlog is a complete set of business tools to help digitalize their business process and a marketplace that gives them access to wider market that cuts across geographical boundaries.
+                Kartlog is an fashion tech comapny that offers a platform (marketplace) service for fashion designers and fashion customers across Africa. 
+                Kartlog serves as a marketplace to fashion customers and an updated style catalog to help users stay in touch with fashion trends. </br> 
+                To fashion designers, Kartlog is a complete set of business tools to help digitalize their business process and a marketplace that gives them 
+                access to wider market that cuts across geographical boundaries.
               </div>
             </div>
             <div className="faqs-content">
