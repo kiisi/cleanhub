@@ -25,6 +25,7 @@
 }
 .faqs-content-header p{
     color:var(--black);
+    font-weight: 600;
 }
 
 
