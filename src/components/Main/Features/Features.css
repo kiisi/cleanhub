@@ -14,8 +14,9 @@
     padding-bottom: 1rem;
 }
 .features-header-main h1{
-    font-size:3.8rem;
+    font-size:2.8rem;
     color:var(--blue);
+    font-weight:900;
 }
 .features-header-sub{
     color:var(--black);
