@@ -1,13 +1,12 @@
 import React from 'react'
 import './Header.css'
-import kartlog from '../../Images/Kartlogowhite.svg';
+
 import appstore from '../../Images/appstore.png'
 import playstore from '../../Images/playstore.png'
 const Header = () => {
   return (
     <header className="k-header">
       <div className="header-container">
-        
         <div className="header-main">
           <h1>Buy and sell</h1>
           <h1>Custom-made clothing</h1>
