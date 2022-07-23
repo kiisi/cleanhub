@@ -75,8 +75,10 @@ const Faqs = () => {
                 <div className="faqs-icon"><span className="material-icons">add</span></div>
               </div>
               <div className="faqs-content-main">
-                First, download the app, sign up for Kartlog, define your style and input your measurement (we have a video to guide you through the process). Search through thousands of styles shared by fashion designers to choose from, Choose particular designs and designer to help get it done. <br/>
-                How it works: Kartlog for Fashion designers Fashion designers are to download the app, set up an account, onboard customers by sending invite links. Then they have to set up their stores and are ready for business.
+                <span style="font-weight:600;">Fashion Customers: </span> First, download the app, sign up for Kartlog, define your style and input your measurement (we have a video to 
+                guide you through the process). From your timeline, you have access to creative designs uploaded by fashion designers across Africa, Choose particular designs and designer to help get it done. <br/>
+                Fashion Designers: Kartlog for Fashion designers Fashion designers are to download the app, set up an account, onboard customers by sending invite links. 
+                Then they have to set up their stores and are ready for business.
               </div>
             </div>
             <div className="faqs-content">
