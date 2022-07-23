@@ -64,7 +64,7 @@ const Faqs = () => {
               </div>
               <div className="faqs-content-main">
                 Kartlog is an fashion tech comapny that offers a platform (marketplace) service for fashion designers and fashion customers across Africa. 
-                Kartlog serves as a marketplace to fashion customers and an updated style catalog to help users stay in touch with fashion trends. </br> </br>
+                Kartlog serves as a marketplace to fashion customers and an updated style catalog to help users stay in touch with fashion trends. <br/> <br/>
                 To fashion designers, Kartlog is a complete set of business tools to help digitalize their business process and a marketplace that gives them 
                 access to wider market that cuts across geographical boundaries.
               </div>
@@ -75,10 +75,10 @@ const Faqs = () => {
                 <div className="faqs-icon"><span className="material-icons">add</span></div>
               </div>
               <div className="faqs-content-main">
-                <span style="font-weight:600;">Fashion Customers: </span> First, download the app, sign up for Kartlog, define your style and input your measurement 
+                <span>Fashion Customers: </span> First, download the app, sign up for Kartlog, define your style and input your measurement 
                 (we have a video to guide you through the process). From your timeline, you have access to creative designs uploaded by fashion designers across Africa, 
                  Choose particular designs and designer to help get it done. <br/>
-                <span style="font-weight:600;">Fashion Designers: </span> Kartlog for Fashion designers Fashion designers are to download the app, set up an account, onboard customers by sending invite 
+                <span>Fashion Designers: </span> Kartlog for Fashion designers Fashion designers are to download the app, set up an account, onboard customers by sending invite 
                 links. Then they have to set up their stores and are ready for business.
               </div>
             </div>
