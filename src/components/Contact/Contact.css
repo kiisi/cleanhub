@@ -38,8 +38,8 @@
 }
 .contact-main_header p{
     font-size:var(--fontText);
-    font-weight:300;
-    line-height:2.2rem;
+    font-weight:500;
+    line-height:1.8rem;
 }
 .contact-main_footer--tel{
     display:flex;
