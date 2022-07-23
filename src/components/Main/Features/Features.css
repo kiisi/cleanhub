@@ -21,6 +21,7 @@
 .features-header-sub{
     color:var(--black);
     padding-top:1rem;
+    font-weight: 600;
 }
 .features-header-sub h1{
     padding-bottom:1rem;
