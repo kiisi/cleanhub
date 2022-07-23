@@ -51,7 +51,6 @@
     overflow:hidden;
     color:var(--black);
     padding-left:1.5rem;
-    font-weight:600;
 }
 .faqs-content-main:not(.effect){
     display:none;
