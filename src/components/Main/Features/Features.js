@@ -20,7 +20,7 @@ const Features = () => {
       <div className="features">
         <div className="features-header_wrapper">
           <div className="features-header-main">
-            <h1>FEATURES</h1>
+            <h1>Features</h1>
           </div>
           <div className="features-header-sub">
             <h1>Fashion Designers</h1>
