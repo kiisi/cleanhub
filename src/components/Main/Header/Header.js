@@ -8,11 +8,11 @@ const Header = () => {
     <header className="k-header">
       <div className="header-container">
         <div className="header-main">
-          <h1>Buy and sell</h1>
-          <h1>Custom-made clothing</h1>
+          <h1>Market place</h1>
+          <h1>for bespoke wears</h1>
         </div>
         <div className="header-sub">
-          <p>A marketplace for fashion designers and fashion customers</p>
+          <p>A classic shopping experience for everyone</p>
         </div>
         <div className="getapp">
           <div className="appstore"><img src={appstore} alt='appstore'/></div>
