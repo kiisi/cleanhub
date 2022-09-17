@@ -66,8 +66,8 @@ const FeaturesDesktop = () => {
                         <img src={measurement} alt="payment" />
                     </div>
                     <div className="features-main-content-main">
-                        <h1>E-Measurements booklet</h1>
-                        <p style={num.id_0 === 1 ? { display: "block" } : { display: "none" }}>Fashion Designers can view all clients measurement via client's profile. Measurements can always be updated.</p>
+                        <h1>Client's real time measurement</h1>
+                        <p style={num.id_0 === 1 ? { display: "block" } : { display: "none" }}>Every client has a documentation of their measurements on their profile and can share and make updates when needed </p>
                     </div>
                 </div>
                 <div className="features-main-content" onClick={p_two} style={num.id_1 === 1 ? { boxShadow: "0 0 3px 3px rgb(0 0 0 / 10%)" } : { boxShadow: "none", borderBottom: "1px solid #aaa", borderRadius: "0" }}>

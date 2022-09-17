@@ -58,8 +58,8 @@ const FeaturesMobile = () => {
                             <img src={measurement} alt="img" />
                         </div>
                         <div className="features-main-content-main-mb">
-                            <h1>E-Measurements booklet</h1>
-                            <p >Fashion Designers can view all clients measurement via client's profile. Measurements can always be updated.</p>
+                            <h1>Client's real time measurement</h1>
+                            <p>Every client has a documentation of their measurements on their profile and can share and make updates when needed </p>
                         </div>
                     </div>
                     <div className="features-main-content-img-mb"style={num.id_0 === 1 ? { display: "block" } : { display: "none" }}>

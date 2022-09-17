@@ -40,8 +40,8 @@ const Footer = () => {
           <div className="footer-social-wrapper">
             <div className="footer-social">
               <a href="https://facebook.com/KartlogAfrica" target="_blank" rel="noreferrer"><div className="footer-social-icons"><Fa.FaFacebookF /></div></a>
-              <a href="https://twitter.com/KartlogAfrica" target="_blank" rel="noreferrer"><div className="footer-social-icons"><Fa.FaTwitter /></div></a>
-              <a href="https://instagram.com/kartlogafrica" target="_blank" rel="noreferrer"><div className="footer-social-icons"><Fa.FaInstagram /></div></a>
+              <a href="https://twitter.com/Kartloghq" target="_blank" rel="noreferrer"><div className="footer-social-icons"><Fa.FaTwitter /></div></a>
+              <a href="https://instagram.com/kartloghq" target="_blank" rel="noreferrer"><div className="footer-social-icons"><Fa.FaInstagram /></div></a>
             </div>
           </div>
         </div>
