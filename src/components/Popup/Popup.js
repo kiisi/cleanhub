@@ -84,7 +84,7 @@ const Popup = () => {
 
   setInterval(() => {
 
-    const futureDate = new Date("September 30, 2022 00:00:00").getTime()
+    const futureDate = new Date("November 20, 2022 00:00:00").getTime()
     const presentDate = new Date()
     const countDate = futureDate - presentDate
 
