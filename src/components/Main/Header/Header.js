@@ -8,8 +8,7 @@ const Header = () => {
     <header className="k-header">
       <div className="header-container">
         <div className="header-main">
-          <h1>Shop for bespoke wears</h1>
-          <h1>Right from ur smart phone</h1>
+          <h1>Market place for custom made clothings</h1>
         </div>
         <div className="header-sub">
           <p>A marketplace for fashion designers in Africa to help meet the increasing demand for bespoke wears
