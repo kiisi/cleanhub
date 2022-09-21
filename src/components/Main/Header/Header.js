@@ -12,7 +12,8 @@ const Header = () => {
           <h1>for bespoke wears</h1>
         </div>
         <div className="header-sub">
-          <p>Hi 👋, ready to shop from top fashion designers?</p>
+          <p>A marketplace for fashion designers in Africa to help meet the increasing demand for bespoke wears from digital natives and millennials
+</p>
         </div>
         <div className="getapp">
           <div className="appstore"><img src={appstore} alt='appstore'/></div>
