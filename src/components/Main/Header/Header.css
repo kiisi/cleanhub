@@ -38,7 +38,7 @@
     padding-bottom: 1rem;
 }
 .header-main h1{
-    font-weight: 600;
+    font-weight: 800;
     color:#fff;
     font-size:calc(var(--fontSizeBig) + 2rem);
     text-align:center;
