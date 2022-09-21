@@ -11,7 +11,7 @@ const Header = () => {
           <h1>Market place for bespoke wears</h1>
         </div>
         <div className="header-sub">
-          <p>Buy and sell custom made wears in a market without boundaries</p>
+          <p>Effortlessly buy and sell Bespoke wears in a market without boundaries without fear of trust and delays in delivery. </p>
         </div>
         <div className="getapp">
           <div className="appstore"><img src={appstore} alt='appstore'/></div>
