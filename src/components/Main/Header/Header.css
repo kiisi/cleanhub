@@ -49,9 +49,10 @@
     font-size:1.8rem;
     letter-spacing: 1px;
     width:100%;
-    max-width:45rem;
+    max-width:60rem;
     text-align:center;
-    font-weight:900;
+    font-weight:600;
+    line-height:20px; 
 }
 .getapp{
     padding-top: 1rem;
