@@ -7,20 +7,20 @@ const Fashion = () => {
             <div className="digital_content_wrapper">
                 <div className="digital_content">
                     <div className="digital_content_header">
-                        <h1>Digitalize your everyday business operation and get access to a wider market</h1>
+                        <h1>Get access to a market beyond boundaries and digitalize your business operations</h1>
                     </div>
                     <div className="digital_content_list">
                         <div className="digital_content_items">
                             <div className="check"><span class="material-icons">check_circle</span></div>
-                            <div class="item">Kartlog enables you to reach out to more global audience right from your mobile phone</div>
+                            <div class="item">Kartlog enables fashion designers to reach out to a market without boundaries</div>
                         </div>
                         <div className="digital_content_items">
                             <div className="check"><span class="material-icons">check_circle</span></div>
-                            <div class="item">Kartlog documents customer inventories including measurements, payments, customer birthdays and special events</div>
+                            <div class="item">Kartlog helps fashion designers document every business operations, making it easier to do business</div>
                         </div>
                         <div className="digital_content_items">
                             <div className="check"><span class="material-icons">check_circle</span></div>
-                            <div class="item">Makes selling seamless and allow you concentrate on what you do best, creating better fashion designs</div>
+                            <div class="item">Fashion designers can now sell seamlessly without stress</div>
                         </div>
                         <div className="btn btn-popup">Get Started</div>
                     </div>
