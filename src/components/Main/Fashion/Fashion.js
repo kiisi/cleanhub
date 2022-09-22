@@ -22,7 +22,7 @@ const Fashion = () => {
                 <div className="fashion_content_wrapper">
                     <div className="fashion_content">
                         <div className="fashion_content_header">
-                            <h1>A fashion hub for on-demand bespoke wears</h1>
+                            <h1>Buy from the best of fashion designers, even your favorite fashion designer is on Kartlog</h1>
                         </div>
                         <div className="fashion_content_list">
                             <div className="fashion_content_items">
