@@ -1,6 +1,6 @@
 import React from 'react'
 import './Digital.css'
-import img from '../../Images/fc.png'
+import img from '../../Images/images-new/fc.svg'
 const Fashion = () => {
     return (
         <div className="digital no-highlight">
