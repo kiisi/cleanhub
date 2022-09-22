@@ -1,6 +1,6 @@
 import React from 'react'
 import './Digital.css'
-import {ReactComponent as Img} from '../../Images/fc.png'
+import img from '../../Images/fc.png'
 const Fashion = () => {
     return (
         <div className="digital no-highlight">
@@ -28,7 +28,7 @@ const Fashion = () => {
             </div>
             <div className="digital_image_wrapper">
                 <div className="digital_image">
-                    <Img className='img'/>
+                    <img src={img} alt="img" className='img'/>
                 </div>
             </div>
         </div>
