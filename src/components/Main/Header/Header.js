@@ -8,7 +8,7 @@ const Header = () => {
     <header className="k-header">
       <div className="header-container">
         <div className="header-main">
-          <h1>Get Bespoke wears On-demand</h1>
+          <h1>Get Bespoke wears </br>On-demand</h1>
         </div>
         <div className="header-sub">
           <p>Effortlessly buy and sell Bespoke wears in a market without boundaries without fear of trust and delays in delivery. </p>
