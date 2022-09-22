@@ -42,7 +42,7 @@
     color:#fff;
     font-size:calc(var(--fontSizeBig) + 3rem);
     text-align:center;
-    max-width:60rem;
+    max-width:70rem;
 }
 
 .header-sub{
