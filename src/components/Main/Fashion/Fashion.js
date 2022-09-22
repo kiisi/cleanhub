@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Fashion.css'
-import {ReactComponent as Img} from 'src/components/Images/Images-new/fc.png'
+import img from 'src/components/Images/Images-new/fc.png'
 
 const Fashion = () => {
 
@@ -43,7 +43,7 @@ const Fashion = () => {
                 </div>
                 <div className="fashion_image_wrapper">
                     <div className="fashion_image">
-                        <Img className='img'/>
+                        <img src={img} className='img' alt="img"/>
                     </div>
                 </div>
             </div>
