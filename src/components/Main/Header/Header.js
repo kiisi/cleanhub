@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header-main">
           <h1>Get Bespoke wears</h1> 
-          <h1>On-demandv</h1>
+          <h1>On-demand</h1>
         </div>
         <div className="header-sub">
           <p>Effortlessly buy and sell Bespoke wears in a market without boundaries without fear of trust and delays in delivery. </p>
