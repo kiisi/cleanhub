@@ -31,11 +31,11 @@ const Fashion = () => {
                             </div>
                             <div className="fashion_content_items">
                                 <div className="check"><span className="material-icons">check_circle</span></div>
-                                <div className="item">Kartlog has thousands of design styles to suit your every event, traditional, casual and corporates posted by verified fashion designers</div>
+                                <div className="item">Kartlog is a thousand fashion magazine put together to help you stay in trend - A fashion Catalogue</div>
                             </div>
                             <div className="fashion_content_items">
                                 <div className="check"><span className="material-icons">check_circle</span></div>
-                                <div className="item">Kartlog offers affordable material pickup and delivery across Africa</div>
+                                <div className="item">Shop universally without fear of trust and delay in delivery</div>
                             </div>
                             <div className="btn btn-popup">Get Started</div>
                         </div>
