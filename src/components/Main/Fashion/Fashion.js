@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Fashion.css'
-import {ReactComponent as Img} from '../../Images/Div1.svg'
+import {ReactComponent as Img} from '../../Images/fd.png'
 
 const Fashion = () => {
 
