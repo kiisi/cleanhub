@@ -59,7 +59,7 @@
 @media screen and (max-width:768px){
     .digital{
         grid-template-columns: 100%;
-        grid-row-gap:4rem; 
+        grid-row-gap:5rem; 
     }  
     .digital_image_wrapper{
         grid-row: 1/2;
