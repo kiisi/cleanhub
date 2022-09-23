@@ -57,7 +57,7 @@
     align-items:center;
 }
 .fashion_image{
-    height:40rem;
+    height:50rem;
     width:100%;
 }
 .fashion_image .img{
@@ -69,7 +69,7 @@
 @media screen and (max-width:768px){
     .fashion{
         grid-template-columns: 100%;
-        grid-row-gap:4rem; 
+        grid-row-gap:5rem; 
     }  
     .fashion_image_wrapper{
         grid-row: 1/2;
