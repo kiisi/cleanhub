@@ -56,7 +56,7 @@
     width:100%;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
     .digital{
         grid-template-columns: 100%;
         grid-row-gap:5rem; 
