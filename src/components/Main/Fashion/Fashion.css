@@ -57,7 +57,8 @@
     align-items:center;
 }
 .fashion_image{
-    height:50rem;
+    max-height:45rem;
+    height:100%;
     width:100%;
 }
 .fashion_image .img{
