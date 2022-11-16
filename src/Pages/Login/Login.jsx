@@ -34,6 +34,20 @@ const Login = () => {
                                         <Button />
                                     </div>
                                 </div>
+                                <div className="login-content-providers">
+                                    <div className="btn-sm login-content-providers-btn_s">SIGN IN</div>
+                                    <div className="btn-sm login-content-providers-btn_g">
+                                        <div>
+                                            <span>G</span>
+                                            <span>O</span>
+                                            <span>O</span>
+                                            <span>G</span>
+                                            <span>L</span>
+                                            <span>E</span>
+                                        </div>
+                                    </div>
+                                    <div className="btn-sm login-content-providers-btn_f">FACEBOOK</div>
+                                </div>
                             </div>
                         </div>
                     </div>

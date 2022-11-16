@@ -16,11 +16,23 @@
 .btn{
     padding: 1.2rem 0;
     background:#2BA84A;
-    width:18.7rem;
+    width:16.7rem;
     display:grid;
     place-items: center;
     border-radius: 8px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    color:#fff;
+    font-weight: 600;
+    border: 1px solid #2BA84A;
+}
+.btn-sm{
+    padding: 1.2rem 0;
+    background:#2BA84A;
+    width:14.7rem;
+    display:grid;
+    place-items: center;
+    border-radius: 8px;
+    font-size: 1.4rem;
     color:#fff;
     font-weight: 600;
     border: 1px solid #2BA84A;
