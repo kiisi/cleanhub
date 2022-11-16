@@ -1,0 +1,61 @@
+.recycle{
+    display:flex;
+    margin-top: 10rem;
+
+    @media screen and (max-width:900px){
+        flex-direction: column;
+    }
+
+    &-img{
+        flex-basis: 50%;
+        background: #FDF4DB;
+        padding:6%;
+        display:grid;
+        place-items:center;
+
+        & > div{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width:100%;
+            max-width:50rem;
+
+            .recycle-cards{
+                padding:2rem;
+                text-align: center;
+                
+                &-img{
+                    width: 7rem;
+                    height: 7rem;
+                    display:grid;
+                    place-items:center;
+                }
+            }
+            .recycle-circle{
+                height:8rem;
+                width:8rem;
+                background:#2BA84A;
+                margin:2rem;
+                border-radius: 50%;
+                display:grid;
+                place-items: center;
+                font-size:1.6rem;
+                color:#fff;
+            }
+        }
+    }
+
+    &-content{
+        background:#2BA84A;
+        flex:1;
+        display:grid;
+        place-items:center;
+        padding:6%;
+        text-align: center;
+        color:#fff;  
+        
+        p{
+            font-size:2rem;
+        }
+    }
+}

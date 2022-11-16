@@ -1,0 +1,11 @@
+.cleanhub-logo{
+    display:flex;
+    align-items:center;
+    font-size:2.6rem;
+    font-weight: 700;
+
+    & > span{
+        padding-left: 6px;
+        color:#fff;
+    }
+}

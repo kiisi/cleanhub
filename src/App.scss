@@ -1,0 +1,54 @@
+.app, .page-min-height{
+    min-height:100vh;
+}
+
+.max-wrapper{
+    width:100%;
+    max-width:1500px;
+    margin:0 auto;
+
+    &-content{
+        width: 94%;
+        margin:0 auto;
+    }
+}
+
+.btn{
+    padding: 1.2rem 0;
+    background:#2BA84A;
+    width:18.7rem;
+    display:grid;
+    place-items: center;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    color:#fff;
+    font-weight: 600;
+    border: 1px solid #2BA84A;
+}
+
+.heading-sm{
+    font-weight: 800;
+    font-size:2.4rem;
+}
+
+.heading-lg{
+    font-weight: 900;
+    font-size: 4rem;    
+    padding-top: 3rem;
+
+    @media screen and (max-width:900px){
+        font-size: 3rem;
+    }
+}
+
+.text-p{
+    font-size:1.8rem;
+    padding: 3rem 0;
+}
+.text-p-sm{
+    font-size:1.5rem;
+}
+
+.padding-big{
+    padding:5rem;
+}

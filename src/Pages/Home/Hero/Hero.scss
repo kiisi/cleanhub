@@ -1,0 +1,95 @@
+.hero-wrapper{
+    background: url(../../../assets/herobg.png);
+    background-repeat: no-repeat;
+    background-position-x: 140%;
+    background-position-y: 100%;
+
+    @media screen and (max-width:1120px){
+        background-position-x: 170%;
+    }
+    @media screen and (max-width:1060px){
+        background-position-x: 210%;
+    }
+    @media screen and (max-width:900px){
+        background-position-y: 0%;
+        background-position-x: 100%;
+    }
+
+
+
+    .hero{
+        padding-top:15rem;
+        padding-bottom: 10rem;
+        display:flex;
+        justify-content: space-between;
+        column-gap: 4rem;
+
+        @media screen and (max-width:900px){
+            flex-direction: column-reverse;
+            column-gap: 0;
+            row-gap: 10rem;
+
+        }
+
+        &-content{
+            width:100%;
+            max-width:50rem;
+
+            h1{
+                font-size: 4rem;
+                font-weight: 900;
+
+                span{
+                    color:#2BA84A;
+                    text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+                }
+            }
+            p{
+                font-size:1.8rem;
+                font-weight: 400;
+                line-height:28px;
+                padding: 5rem 0;
+                text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+            }
+
+            &-btn{
+                display:flex;
+
+                &-start{
+                    margin-right: 1rem;
+                    @media screen and (max-width:375px){
+                        font-size:1.4rem;
+                    }
+                }
+                
+                &-sign{
+                    color:#2BA84A;
+                    background: #fff;
+                    @media screen and (max-width:375px){
+                        font-size:1.4rem;
+                    }
+                }
+            }
+        }
+
+        &-img{
+            width:100%;
+            height:100%;
+            align-self: center;
+            display: flex;
+            justify-content: right;
+
+            @media screen and (max-width:900px){
+                justify-content: center;
+            }
+
+            img{
+                width:100%;
+                height:100%;
+                max-width:600px;
+                max-height: 312px;
+            }
+        }
+    }
+}

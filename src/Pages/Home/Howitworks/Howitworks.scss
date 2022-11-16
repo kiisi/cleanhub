@@ -1,0 +1,19 @@
+.howitworks-wrapper{
+    margin-top: 10rem;
+
+    .howitworks-title{
+        padding-bottom: 3rem;
+
+        h1{
+            max-width:65rem;
+            width:100%;
+        }
+    }
+
+    .howitworks-content{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+

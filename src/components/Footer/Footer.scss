@@ -1,0 +1,117 @@
+.footer{
+    margin-top:10rem;
+    background:#2BA84A;
+    padding:2rem 0;
+    padding-top: 5rem;
+    color:#fff;
+
+    &-main{
+        display:flex;
+        column-gap:5rem;
+        flex-wrap:wrap;
+
+        @media screen and (max-width:900px){
+            flex-direction: column;
+            column-gap: 0;
+            row-gap:5rem;
+        }
+
+        &-head{
+            padding-top: 1rem;
+            width:100%;
+            max-width: max-content;
+
+            &-logo{
+                padding-bottom: 5rem;
+            }
+
+            &-subscribe{
+                display:flex;
+                column-gap: 1rem;
+                flex-wrap:wrap;
+
+                input{
+                    height:4.8rem;
+                    width:24.5rem;
+                    outline: none;
+                    border-radius: 1.2rem;
+                    border:1px solid #aaa;
+                    padding: 1rem 1rem;
+                    margin-top:1rem;
+                }
+             
+                &-btn{
+                    background: #FFC300;
+                    font-weight:500;
+                    font-size:1.5rem;
+                    width:14.8rem;
+                    margin-top:1rem;
+                }
+            }
+        }
+
+        &-links{
+            display:flex;
+            justify-content: space-between;
+            flex:1;
+            flex-wrap: wrap;
+            max-width: 70rem;
+
+            &-item{
+                padding:1rem;
+
+                h2{
+                    font-size:1.6rem;
+                    font-weight: 500;
+                    padding-bottom:1rem;
+                }
+
+                p{
+                    font-size:1.5rem;
+                    font-weight: 100;
+                    color:#fff;
+                    padding:5px 0;
+                }
+
+                & > div{
+                    display:flex;
+                    align-items: center;
+                    padding:5px 0;
+
+                    label{
+                        font-size:1.5rem;
+                        font-weight: 100;
+                        padding-left:10px;
+                        max-width: 20rem;
+                    }
+                }
+            }
+        }
+    }
+
+    &-sub{
+        margin-top:4rem;
+        border-top:1px solid #fff;
+        display:grid;
+        place-items:center;
+
+        &-connect{
+            margin-top: -1rem;
+            background:#2BA84A;
+
+            h2{
+                padding:0 2rem;
+                font-weight:400;
+            }
+            div{
+                display:flex;
+                justify-content: space-around;
+
+                img{
+                    margin:1rem;
+                    height:15px;
+                }
+            }
+        }
+    }
+}
