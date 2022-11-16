@@ -35,7 +35,7 @@ const Login = () => {
                                     </div>
                                 </div>
                                 <div className="login-content-providers">
-                                    <div className="btn-sm login-content-providers-btn_s">SIGN IN</div>
+                                    <div className="btn-sm login-content-providers-btn_s">SIGN UP</div>
                                     <div className="btn-sm login-content-providers-btn_g">
                                         <div>
                                             <span>G</span>

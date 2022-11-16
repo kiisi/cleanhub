@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../../components/Navbar/Navbar'
 import './Hero.scss'
 import heroimg from '../../../assets/heroimg.png'
+import {Link} from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
             </p>
             <div className="hero-content-btn">
               <div className="btn hero-content-btn-start">GET STARTED</div>
-              <div className="btn hero-content-btn-sign">SIGN IN</div>
+              <div className="btn hero-content-btn-sign"><Link to="/signin">SIGN IN</Link></div>
             </div>
           </div>
           <div className="hero-img">
