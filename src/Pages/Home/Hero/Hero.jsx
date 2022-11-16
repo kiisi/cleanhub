@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="hero-wrapper max-wrapper">
       <div className="max-wrapper-content ">
-        <Navbar navlinkColor={'#fff'}/>
+        <Navbar navLinkColor="#fff"/>
         <div className="hero">
           <div className="hero-content">
             <h1>RE-USE THE <span>REFUSE</span></h1>

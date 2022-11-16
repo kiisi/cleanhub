@@ -64,8 +64,14 @@
                 }
                 
                 &-sign{
-                    color:#2BA84A;
                     background: #fff;
+
+                    a,
+                    a:link,
+                    a:visited{
+                        color:#2BA84A;
+                    }
+
                     @media screen and (max-width:375px){
                         font-size:1.4rem;
                     }

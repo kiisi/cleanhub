@@ -1,10 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react'
 import './Input.scss'
 
-const Input = ({type, labelText}) => {
+const Input = ({type, labelText, value, setValue}) => {
 
     const [focus, setFocus] = useState(false)
-    const [inputValue, setInputValue] = useState('')
     const [passwordVisibility, setPasswordVisibility] = useState(false)
     const labelRef = useRef()
     const inputRef = useRef()
@@ -20,7 +19,7 @@ const Input = ({type, labelText}) => {
 
         input.addEventListener("focusout", ()=>{
             
-            if(inputValue !== ''){
+            if(value !== ''){
                 setFocus(true)
             }else{
                 setFocus(false)
@@ -31,7 +30,7 @@ const Input = ({type, labelText}) => {
             setFocus(true)
         })
 
-    },[inputValue])
+    },[value])
 
     const setPasswordVisibilityHandler = () =>{
         setPasswordVisibility(!passwordVisibility)
@@ -42,7 +41,7 @@ const Input = ({type, labelText}) => {
     <div className="input">
         <div className={focus ? "input-label active" : "input-label"} ref={labelRef}>{labelText}</div>
         <div className={focus ? "active input-main" : "input-main"}>
-            <input type={passwordVisibility ? 'text' : 'password'}  ref={inputRef} value={inputValue} onChange={(e)=>setInputValue(e.target.value)}/>
+            <input type={passwordVisibility ? 'text' : 'password'}  ref={inputRef} value={value} onChange={setValue}/>
             <span onClick={setPasswordVisibilityHandler} className="material-icons">{passwordVisibility ? 'visibility' : 'visibility_off'}</span>
         </div>
     </div>
@@ -50,7 +49,7 @@ const Input = ({type, labelText}) => {
     <div className="input">
         <div className={focus ? "input-label active" : "input-label"} ref={labelRef}>{labelText}</div>
         <div className={focus ? "active input-main" : "input-main"}>
-            <input type={type}  ref={inputRef} value={inputValue} onChange={(e)=>setInputValue(e.target.value)}/>
+            <input type={type}  ref={inputRef} value={value} onChange={setValue}/>
         </div>
     </div>
 

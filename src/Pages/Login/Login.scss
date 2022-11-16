@@ -1,5 +1,6 @@
 .login{
-    padding-top:10rem;
+    padding-top:5rem;
+    padding-bottom: 8rem;
     display:flex;
     column-gap: 6rem;
 
@@ -11,7 +12,7 @@
     }
 
     &-content{
-        padding-top:5rem;
+        padding-top:3rem;
         flex:1;
 
         &-max_width{
@@ -37,22 +38,25 @@
         }
 
         &-row{
-            margin-top: 4rem;
+            margin-top: 2.5rem;
         }
 
         &-password_service{
-            padding-top:3rem;
+            padding-top:4rem;
             display:flex;
             align-items: center;
             justify-content: space-between;
             font-size:1.5rem;
             font-family:'Nunito','Ubuntu','Roboto', Helvetica, sans-serif;
 
-            p{
+            &-btn_s{
+                background: #fff;
                 color:#2BA84A;
+                box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+                font-weight: 800;
             }
 
-            div{
+            &-remember_me{
                 display:flex;
                 align-items: center;
 
@@ -75,12 +79,6 @@
                 }
             }
 
-            &-btn_s{
-                background: #fff;
-                color:#2BA84A;
-                box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
-                font-weight: 800;
-            }
             &-btn_g{
                 background: #fff;
                 color:#2BA84A;
@@ -105,6 +103,17 @@
                 border-color:#4267B2;
                 box-shadow: 0 0 1px 1px #4267B2;
                 font-weight: 800;
+            }
+        }
+
+        &-getstarted{
+            padding-top:2rem;
+            font-size:1.4rem;
+
+            a,
+            a:link,
+            a:visited{
+                color:#2BA84A;
             }
         }
     }

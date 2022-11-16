@@ -10,6 +10,23 @@
         display:flex;
         font-size: 1.6rem;
 
+        .navlink-color-w{
+            color:#fff !important;
+
+            &:link,
+            &:visited{
+                color:#fff;
+            }
+        }
+        .navlink-color-b{
+            color:#222;
+
+            &:link,
+            &:visited{
+                color:#222;
+            }
+        }
+
         @media screen and (max-width:768px){
             display:none;
         }
