@@ -15,8 +15,8 @@ const Hero = () => {
             <p>All for the love of a cleaner Lagos and a better environment, let's put the recyclable trash to good use. Become an active trash depositor and stand a chance to get a reward or maybe you just want those recyclable trash for your business... WE'VE GOT YOU COVERED.
             </p>
             <div className="hero-content-btn">
-              <div className="btn hero-content-btn-start">GET STARTED</div>
-              <div className="btn hero-content-btn-sign"><Link to="/signin">SIGN IN</Link></div>
+              <Link className="btn hero-content-btn-start" to="/signup"><span>GET STARTED</span></Link>
+              <Link to="/signin" className="btn hero-content-btn-sign"><span>SIGN IN</span></Link>
             </div>
           </div>
           <div className="hero-img">
