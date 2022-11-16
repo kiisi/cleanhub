@@ -43,7 +43,6 @@ const Login = () => {
                             </div>
                             <div className="login-content-providers">
                                 <div className="login-content-providers-btn">
-                                    <div>OR</div>
                                     <div className="login-content-providers-btn_g">
                                         <div>
                                             <span>G</span>
