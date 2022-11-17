@@ -6,13 +6,19 @@
     &--slider{
         height:1.7rem;
         width:4rem;
-        background:#2ba84a;
         position:absolute;
+        background:#fff;
+        border:1px solid #2ba84a;
         top:50%;
         left:50%;
         transform: translate(-50%,-50%);
         border-radius: 1rem;
         z-index:-1;
+        transition: 250ms ease;
+
+        &.toggle{
+            background:#2ba84a;
+        }
     }
     &--circle{
         height:3rem;
