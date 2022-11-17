@@ -19,6 +19,9 @@ const Navbar = ({navLinkColor}) => {
         <div className="nav-items-item"><Link to="/" className={navLinkColor ? "navlink-color-w" : "navlink-color-b"}>CONTACT</Link></div>
         <div className="nav-items-item"><Link to="/" className={navLinkColor ? "navlink-color-w" : "navlink-color-b"}>BLOG</Link></div>
       </div>
+      <div className="nav-menubar">
+        <span className="material-icons">menu</span>
+      </div>
     </nav>
   )
 }
