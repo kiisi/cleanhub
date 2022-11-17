@@ -31,11 +31,11 @@ const Navbar = ({ navLinkColor }) => {
 
       <div className={click ? "mobile-nav show" : "mobile-nav"}>
         <div className="mobile-nav-items">
-          <div className="mobile-nav-items-item"><Link to="/" className="navlink-color-w">HOME</Link></div>
-          <div className="mobile-nav-items-item"><Link to="/" className="navlink-color-w">ABOUT US</Link></div>
-          <div className="mobile-nav-items-item"><Link to="/" className="navlink-color-w">HOW IT WORKS</Link></div>
-          <div className="mobile-nav-items-item"><Link to="/" className="navlink-color-w">CONTACT</Link></div>
-          <div className="mobile-nav-items-item"><Link to="/" className="navlink-color-w">BLOG</Link></div>
+          <div className="mobile-nav-items-item"><Link to="/" onClick={closeHandler} className="navlink-color-w">HOME</Link></div>
+          <div className="mobile-nav-items-item"><Link to="/" onClick={closeHandler} className="navlink-color-w">ABOUT US</Link></div>
+          <div className="mobile-nav-items-item"><Link to="/" onClick={closeHandler} className="navlink-color-w">HOW IT WORKS</Link></div>
+          <div className="mobile-nav-items-item"><Link to="/" onClick={closeHandler} className="navlink-color-w">CONTACT</Link></div>
+          <div className="mobile-nav-items-item"><Link to="/" onClick={closeHandler} className="navlink-color-w">BLOG</Link></div>
         </div>
         <div className="mobile-nav-close">
           <div className={click ? "mobile-nav-close--times show" : "mobile-nav-close--times"} onClick={closeHandler}>
