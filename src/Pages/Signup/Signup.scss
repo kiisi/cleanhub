@@ -1,4 +1,4 @@
-.login{
+.signup{
     padding-top:5rem;
     padding-bottom: 8rem;
     display:flex;
@@ -15,11 +15,15 @@
         padding-top:3rem;
         flex:1;
 
-        &-max_width{
-            max-width: 55rem;
+        &-max{
+            padding-left: 6%;
 
-            @media screen and (max-width:900px){
-                margin:auto;
+            &_width{
+                max-width: 55rem;
+    
+                @media screen and (max-width:900px){
+                    margin:auto;
+                }
             }
         }
 

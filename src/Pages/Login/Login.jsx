@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import Navbar from '../../components/Navbar/Navbar'
-import login from '../../assets/login_img.PNG'
+import login_img from '../../assets/login_img.PNG'
 import './Login.scss'
 import Input from '../../components/Input/Input'
 import Button from '../../components/Button/Button'
 import { Link } from 'react-router-dom'
+import { Helmet } from "react-helmet";
+
 const Login = () => {
 
     const [email, setEmail] = useState('')
@@ -16,12 +18,17 @@ const Login = () => {
     return (
 
         <div className="max-wrapper">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Cleanhub Sign In</title>
+                <link rel="canonical" href="https://cleanhubb.netlify.app/" />
+            </Helmet>
             <div className="max-wrapper-content">
                 <Navbar />
             </div>
             <div className="login">
                 <div className="login-img">
-                    <img src={login} alt="login" />
+                    <img src={login_img} alt="login" />
                 </div>
                 <div className="login-content">
                     <div className="max-wrapper-content">
