@@ -21,6 +21,10 @@ const Login = () => {
     const [password, setPassword] = useState('')
     const [rememberMe, setRememberMe] = useState(false)
 
+    const rememberMeHandler = () =>{
+        setRememberMe(!rememberMe)
+    }
+
     const login = () =>{
 
         fetch("https://cleanhubserver.herokuapp.com/login",{
@@ -32,7 +36,12 @@ const Login = () => {
         })
         .then(response => response.json())
         .then(data =>{
-            dispatch(loginUser({...data, active: true}))
+            console.log(data)
+            dispatch(loginUser({...data}))
+
+            if(rememberMe){
+                localStorage.setItem("_tk", data.token)
+            }
         })
         .catch(error=> console.log(error))
     }
@@ -68,7 +77,7 @@ const Login = () => {
                                 <div className="btn-sm login-content-password_service-btn_s" onClick={login}>SIGN IN</div>
                                 <div className="login-content-password_service-remember_me">
                                     <span>Remember me</span>
-                                    <Button />
+                                    <Button toggleHandler={rememberMeHandler} click={rememberMe}/>
                                 </div>
                             </div>
                             <div className="login-content-providers">
