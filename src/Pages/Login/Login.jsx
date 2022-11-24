@@ -4,15 +4,38 @@ import login_img from '../../assets/login_img.PNG'
 import './Login.scss'
 import Input from '../../components/Input/Input'
 import Button from '../../components/Button/Button'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { Helmet } from "react-helmet";
-
+import {useSelector, useDispatch} from 'react-redux'
+import userSlice from '../../store/userSlice'
 const Login = () => {
+
+    const navigate = useNavigate()
+
+    const state = useSelector((state)=> state)
+    console.log(state)
+    const dispatch = useDispatch()
+    const {loginUser} = userSlice.actions
 
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+    const [rememberMe, setRememberMe] = useState(false)
 
+    const login = () =>{
 
+        fetch("https://cleanhubserver.herokuapp.com/login",{
+            method:'post',
+            headers:{
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({email:email, password: password})
+        })
+        .then(response => response.json())
+        .then(data =>{
+            dispatch(loginUser({...data, active: true}))
+        })
+        .catch(error=> console.log(error))
+    }
 
 
     return (
@@ -42,7 +65,7 @@ const Login = () => {
                             </div>
 
                             <div className="login-content-password_service">
-                                <div className="btn-sm login-content-password_service-btn_s">SIGN IN</div>
+                                <div className="btn-sm login-content-password_service-btn_s" onClick={login}>SIGN IN</div>
                                 <div className="login-content-password_service-remember_me">
                                     <span>Remember me</span>
                                     <Button />
